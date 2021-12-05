@@ -3,6 +3,7 @@ mod palindrome_number;
 mod roman_to_integer;
 mod valid_parentheses;
 mod remove_duplicates_from_sorted_array;
+mod remove_element;
 
 fn main() {
     let mut v = vec![1,2,3];
