@@ -4,6 +4,7 @@ mod roman_to_integer;
 mod valid_parentheses;
 mod remove_duplicates_from_sorted_array;
 mod remove_element;
+mod length_of_last_word;
 
 fn main() {
     let mut v = vec![1,2,3];
