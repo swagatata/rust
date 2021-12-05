@@ -1,4 +1,6 @@
 mod valid_parentheses {
+    // This is the full solution 
+    // Uses a stack which keeps track of each open bracket
     pub fn is_valid(s: String) -> bool {
         if s.is_empty() {
             return false;
@@ -41,8 +43,9 @@ mod valid_parentheses {
             _ => panic!(),
         }
     }
+
+    // This is an alternative solution which counts instances of a bracket instead of storing all instances
     // use minimal memory
-    // store number of instances of each bracket instead
     pub fn is_valid_advanced(s: String) -> bool {
         use std::cmp;
 
