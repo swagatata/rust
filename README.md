@@ -1,4 +1,6 @@
 # rust
+I am quite new to Rust and learning by doing leetcode.
+
 + My Rust Code while learning 
 + Solutions for a few leetcode problems
 
